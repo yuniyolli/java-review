@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+</head>
+<body>
+<h1>Students</h1>
+<div th:if="${studentList.isEmpty()}">
+    <p>No student here</p>
+</div>
+<div th:unless="${studentList.isEmpty()}" th:each="student: ${studentList}">
+  <p>name: [[${student.name}]]</p>
+  <p>email: [[${student.email}]]</p>
+</div>
+</body>
+</html>

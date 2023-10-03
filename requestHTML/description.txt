@@ -1,0 +1,9 @@
+### 간단 실습
+
+HTML 세개에서 서로 이동할 수 있도록 링크를 추가하고, 링크에 대해서 정상적으로 작동하도록 `@RequestMapping` 을 구성해보자.
+
+1. `http://localhost:8080/home` , `http://localhost:8080/profile` , `http://localhost:8080/blog` 의 세 주소에 대해서 Spring Boot 어플리케이션이 반응하도록 프로젝트를 구성해 보세요.
+2. 이때, 각각의 주소에 들어갔을 때, 서로 다른 HTML이 나오도록 해주세요.
+3. `http://localhost:8080/home` 에서는, 다른 두 주소로 이동할 수 있는 링크를 포함해주세요.
+4. `http://localhost:8080/profile` 에는 간략한 자기소개를 HTML을 이용해 작성해주세요. HTML이 어렵다면 자기소개 글만 작성해 주세요.
+5. `http://localhost:8080/blog` 에는 `<이름>의 블로그` 라고만 나오게 해주세요.
