@@ -3,11 +3,11 @@ package com.review.thymeleaf;
 import org.springframework.stereotype.Service;
 
 @Service
-public class hitService {
+public class HitService {
     private int hit = 0;
 /*
 // private X -> private: only for this class
-// String X -> this method will be used to cound "int" hit in controller
+// String X -> this method will be used to count "int" hit in controller
     private String countHit() {
         hit++;
         return countHit();

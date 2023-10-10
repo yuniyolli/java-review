@@ -1,0 +1,21 @@
+The code you provided is attempting to generate an array of 6 unique random numbers between 1 and 45. There are a couple of issues in your code that are causing null values and the possibility of duplicate values. Let's address those issues:
+
+Null Values:
+The null values are occurring because you are initializing the winningNums array as a String array, and by default, all elements in a String array are initialized to null. To avoid this issue, you should initialize the winningNums array with valid initial values.
+
+Duplicate Values:
+The code you provided has a loop to generate random numbers, but it doesn't properly check for duplicates. The logic you are using to check for duplicates is flawed because it only checks if the current random number is different from the previously generated random number. This logic is incorrect because it doesn't guarantee uniqueness.
+
+Here's an improved version of your code to generate 6 unique random numbers:
+
+- checkout LottoService
+
+The code you provided is attempting to generate an array of 6 unique random numbers between 1 and 45. There are a couple of issues in your code that are causing null values and the possibility of duplicate values. Let's address those issues:
+
+Null Values:
+The null values are occurring because you are initializing the winningNums array as a String array, and by default, all elements in a String array are initialized to null. To avoid this issue, you should initialize the winningNums array with valid initial values.
+
+Duplicate Values:
+The code you provided has a loop to generate random numbers, but it doesn't properly check for duplicates. The logic you are using to check for duplicates is flawed because it only checks if the current random number is different from the previously generated random number. This logic is incorrect because it doesn't guarantee uniqueness.
+
+Here's an improved version of your code to generate 6 unique random numbers:

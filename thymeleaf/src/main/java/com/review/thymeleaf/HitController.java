@@ -5,11 +5,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class hitController {
+public class HitController {
 
-    private final hitService service;
+    private final HitService service;
 
-    public hitController(hitService service) {
+    public HitController(HitService service) {
         this.service = service;
     }
 
